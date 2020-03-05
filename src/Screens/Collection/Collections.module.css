@@ -1,0 +1,169 @@
+.container {
+    display: flex;
+    flex: 1;
+    padding: 10px 20px;
+
+}
+
+.heading {
+    color: #888888;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    width: 90%;
+}
+
+.searchBar {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #d2d2d2;
+    padding: 12px;
+    color: #888888;
+}
+
+.newCollectionText {
+    color: grey;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.smallHeading {
+    color: grey;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.collectionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.collectionItem {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.collectionItem {
+    display: flex;
+    align-items: center;
+}
+
+.collectionName {
+    margin: 0;
+    margin-left: 10px !important;
+    font-weight: normal;
+    color: #444444;
+
+    /*font-size: 18px;*/
+}
+
+.checkbox {
+    border: 0px solid lightgrey;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    outline: none;
+    content: none;
+}
+
+.checkbox:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 15px;
+    color: transparent !important;
+    background: white;
+    display: block;
+    height: inherit;
+    width: inherit;
+    border-radius: 20px;
+    border: 1px solid grey;
+    /*margin-right: 7px;*/
+}
+
+.checkbox:checked:before {
+    background: #6dd400;
+    border: 0;
+    outline: none;
+}
+
+.breakLine {
+    border: 1px solid #efefef;
+    display: flex;
+    width: 100%;
+}
+
+.addColContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 0px 0 !important;
+    border-radius: 0 !important;
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+}
+
+.addIcon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.addColText {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 350;
+    color: #444444;
+
+}
+
+.revertToSelectCollection {
+    color: #4A90E2;
+    border: 0;
+    padding: 0px;
+    margin: 5px 0;
+    background-color: transparent;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.addtoCollectionBtn {
+    border: 0;
+    background-color: #4a90e2;
+    display: flex;
+    width: 100%;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: 200;
+}
+
+.cross {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    /*height: 18px;*/
+    /*width: 15px;*/
+    background-color: transparent;
+    border: 0;
+    z-index: 1;
+
+}
+.crossIcon{
+    height: 18px;
+    width: 15px;
+}

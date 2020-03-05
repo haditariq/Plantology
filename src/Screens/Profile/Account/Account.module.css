@@ -1,0 +1,70 @@
+.heading {
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.containerSpace{
+    padding: 0 35px !important;
+    margin-bottom: 25px;
+}
+.containerSpace *{
+    /*color: #83898D !important;*/
+    /*font-weight: 330*/
+}
+.fieldContainer {
+    margin-bottom: 15px;
+}
+
+.head {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px !important;
+    color: grey;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    border-radius: 2px;
+    /*border: 1px solid grey;*/
+    margin: 0;
+    border: 0;
+}
+
+.pictureBtn{
+    border: 1px solid #ced4da;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.cameraIcon{
+    height: 35px;
+    width: 35px;
+}
+.cameraIcon,.pictureBtn:focus{
+    outline: none;
+}
+.btn{
+    background-color: #4a90e2;
+    display: block;
+    margin: 20px 0;
+    color: white;
+    padding: 5px 35px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 200;
+}
+.deleteBtn{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px !important;
+    color: red;
+    text-align: start;
+    background-color: transparent;
+    border: 0;
+    padding-right: 20px;
+}
+.deleteBtn:focus{
+    outline: none;
+}

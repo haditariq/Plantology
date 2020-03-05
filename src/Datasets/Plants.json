@@ -1,0 +1,131 @@
+{
+  "plants": [
+    {
+      "_id": "1",
+      "name": "Sun Flower",
+      "subName": "flower name",
+      "uri": "https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    },
+    {
+      "_id": "2",
+      "name": "White Flower",
+      "subName": "flower name",
+      "uri": "https://images-na.ssl-images-amazon.com/images/I/61phSaLp1JL.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    },
+    {
+      "_id": "3",
+      "name": "lilly",
+      "subName": "flower name",
+      "uri": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2019%2F01%2F18211412%2Fgaillardia-arizona-sun-4f15dce1.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    },
+    {
+      "_id": "4",
+      "name": "pink llily",
+      "subName": "flower name",
+      "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5veWeW8hoqCIUaI1pVm4r_L7Rh7gTCMBcCxclNx1T9Zy5CJrW",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    },
+    {
+      "_id": "5",
+      "name": "Sun Flower",
+      "subName": "flower name",
+      "uri": "https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    },
+    {
+      "_id": "6",
+      "name": "lilly",
+      "subName": "flower name",
+      "uri": "https://images-na.ssl-images-amazon.com/images/I/61phSaLp1JL.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    },
+    {
+      "_id": "7",
+      "name": "pink llily",
+      "subName": "flower name",
+      "uri": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2019%2F01%2F18211412%2Fgaillardia-arizona-sun-4f15dce1.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    },
+    {
+      "_id": "8",
+      "name": "abc",
+      "subName": "flower name",
+      "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5veWeW8hoqCIUaI1pVm4r_L7Rh7gTCMBcCxclNx1T9Zy5CJrW",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+
+      }
+    },
+    {
+      "_id": "9",
+      "name": "def",
+      "subName": "flower name",
+      "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5veWeW8hoqCIUaI1pVm4r_L7Rh7gTCMBcCxclNx1T9Zy5CJrW",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "details": {
+        "seed_type": "open_pollinated",
+        "open_pollinated": "18-34 in. (45-120 cm)",
+        "spacing": "Mid (69-80 cm)",
+        "maturity": "Mid (69-80 cm)",
+        "price": 80.00
+      }
+    }
+  ]
+}

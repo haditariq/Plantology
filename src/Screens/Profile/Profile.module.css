@@ -1,0 +1,30 @@
+.container {
+}
+
+.row {
+    margin-top: 25px !important;
+}
+
+.collectionHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.collectionHead * {
+    margin: 0 !important;
+}
+
+.plantListContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.seeAll {
+    color: #4a90e2;
+    background-color: transparent;
+    border: 0;
+}

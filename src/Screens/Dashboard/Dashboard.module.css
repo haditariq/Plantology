@@ -1,0 +1,30 @@
+.heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 495;
+  padding: 25px 0;
+}
+
+.plantListContainer {
+  display: flex;
+  flex: 1;
+  padding: 0px 30px;
+  background-color: transparent !important;
+}
+.moreContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 25px 0 50px 0;
+  align-self: flex-end;
+}
+.more{
+  background-color: #4A90E2;
+  color: #ffffff;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 55px;
+  font-size: 25px;
+  font-weight: 300 !important;
+}
+

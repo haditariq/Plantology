@@ -1,0 +1,139 @@
+.container {
+    padding: 10px 25px;
+    background-color: #333333;
+    color: white;
+    display: flex !important;
+    flex: 1;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-flow: row;
+    margin-bottom: 30px;
+
+}
+*:focus{
+    outline: none !important;
+}
+.brand {
+    font-size: 14px !important;
+    text-decoration: none;
+    color: #ffffff !important;
+    margin-bottom: 0;
+}
+
+.text {
+    font-size: 12px;
+    /*opacity: 0.8;*/
+    text-decoration: none;
+    color: #ffffff !important;
+    margin-bottom: 0;
+
+}
+
+.text:hover {
+    text-decoration: none;
+    opacity: .7;
+    color: white;
+}
+
+.iconStyle {
+    height: 25px;
+    width: 25px;
+}
+
+.textMargin {
+    margin: auto 13px !important;
+}
+
+.rightContainer {
+    display: flex;
+    flex-flow: row;
+}
+
+.input {
+    opacity: unset;
+    padding: 5px 7px;
+    border: 1px solid #545454;
+    border-radius: 3px;
+    width: 250px;
+    color: grey;
+    font-size: 12px;
+
+}
+
+.input::-webkit-input-placeholder {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+
+.searchBtn {
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.searchBtn * {
+    color: white;
+}
+
+.searchBtn {
+    display: none;
+}
+
+.searchBarContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 13px;
+}
+
+.collapse {
+    display: flex;
+    width: 100% !important;
+    justify-content: flex-end !important;
+}
+
+.collapse ul{
+    display: flex;
+    width: 100% !important;
+    justify-content: flex-end !important;
+}
+
+
+@media (max-width: 510px) {
+    .searchBtn {
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .collapse li {
+        display: flex;
+        width: 100% !important;
+        justify-content: flex-end !important;
+        /*height: 20px;*/
+        padding: 10px 20px !important;
+
+    }
+    .collapse a {
+        margin: 0 0px 0 00px !important;
+        padding: 0px !important;
+
+    }
+}
+
+@media (max-width: 371px) {
+    .searchBtn {
+        display: block;
+    }
+
+    .input {
+        width: 15px 0px;
+    }
+}

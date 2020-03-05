@@ -1,0 +1,35 @@
+.container {
+  max-width: 700px !important;
+  width: 90% !important;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding: 0px 15% !important;
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+}
+
+.loginText {
+  color: #888888;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.loginBtn {
+  display: flex;
+  width: 80%;
+  background-color: #4A90E2;
+  padding: 10px 0 !important;
+  font-size: 22px !important;
+  font-weight: 300 !important;
+}

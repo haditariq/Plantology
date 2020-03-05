@@ -1,0 +1,121 @@
+.plantGraphic {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.plantDetails {
+    padding: 0% 9% !important;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 30PX;
+}
+
+.scientificName {
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #444;
+    font-size: 18px;
+}
+
+.description {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 12px;
+    word-spacing: 1px;
+    color: #888;
+    margin-top: 5px;
+    line-height: 19px;
+
+}
+
+.extraDetailItemContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.extraDetailItemContainer * {
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.extraItemHeading {
+    font-weight: 800;
+}
+
+.extraItem {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+
+}
+
+.addToCollection {
+    background-color: #1EA62D;
+    border-radius: 5px;
+    display: flex;
+    /*flex: 1;*/
+    width: 100%;
+    padding: 10px 15px;
+    border: inherit;
+    justify-content: center;
+    color: rgba(255, 255, 255, .95);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.updatePrice {
+  background-color: #2A90E9;
+  border-radius: 5px;
+  display: flex;
+  /*flex: 1;*/
+  width: 100%;
+  padding: 10px 15px;
+  border: inherit;
+  justify-content: center;
+  color: rgba(255, 255, 255, .95);
+  font-size: 16px;
+  font-weight: 300;
+
+}
+
+.priceInput {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 0 10px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    text-align: right;
+    width: 50%;
+}
+
+@media only screen and (max-width: 425px) {
+    .plantGraphic {
+        background-size: 100% auto;
+
+        height: 280px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .plantGraphic {
+        height: 220px;
+    }
+}
